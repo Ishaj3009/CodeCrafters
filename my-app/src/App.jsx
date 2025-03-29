@@ -92,16 +92,17 @@ function App() {
         <div className="main-container">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/auth" element={<AuthPage />} />
             <Route path="/artisans" element={<ProtectedRoute><ArtisanList /></ProtectedRoute>} />
             <Route path="/artisan/:id" element={<ProtectedRoute><ArtisanProfile /></ProtectedRoute>} />
             <Route path="/book/:id" element={<ProtectedRoute><BookingForm /></ProtectedRoute>} />
             <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
             <Route path="/exhibition" element={<Exhibition />} />
             <Route path="/SignUp" element={<SignUp />} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
+           
         </div>
-        <Contact/>      
+            
         <Footer />
       </div>
     </Router>

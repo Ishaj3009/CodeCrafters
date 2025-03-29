@@ -67,6 +67,7 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Contact from "./Connect";
 
 function Home() {
   const navigate = useNavigate();
@@ -130,6 +131,7 @@ Join us in celebrating artistry and craftsmanship!
           </div>
         </div>
       </section>
+      <Contact/>
 
     </div>
   );

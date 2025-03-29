@@ -16,7 +16,7 @@
   }
   
   .contact-title span {
-    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background: black;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -44,7 +44,7 @@
   }
   
   .contact-info h3 span {
-    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background: black;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -83,7 +83,7 @@
   }
   
   .contact-form button {
-    background: linear-gradient(45deg, #0a0909, #37a3de);
+    background: black;
     color: white;
     border: none;
     padding: 10px 20px;
