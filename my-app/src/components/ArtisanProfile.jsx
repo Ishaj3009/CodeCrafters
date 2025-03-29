@@ -64,7 +64,7 @@ function ArtisanProfile() {
           <h2 className="profile-name">{artisan.name}</h2>
           <p className="profile-skill"><strong>Skill:</strong> {artisan.skill}</p>
           <p className="profile-description">{artisan.description}</p>
-          <Link to={`/booking/${artisan.id}`} className="book-session-btn">
+          <Link to={`/book/${artisan.id}`} className="book-session-btn">
             Book a Session
           </Link>
         </div>

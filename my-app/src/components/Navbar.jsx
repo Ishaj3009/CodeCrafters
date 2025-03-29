@@ -1,3 +1,4 @@
+Navbar.jsx
 import "./styles.css";
 // Navbar.jsx
 import { Link } from "react-router-dom";
@@ -10,6 +11,7 @@ function Navbar() {
         <Link to="/" className="mx-2">Home</Link>
         <Link to="/artisans" className="mx-2">Artisans</Link>
         <Link to="/dashboard" className="mx-2">Dashboard</Link>
+        <Link to="/exhibition" className="mx-2">Exhibitons</Link>
       </div>
     </nav>
   );
