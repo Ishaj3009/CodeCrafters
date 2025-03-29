@@ -95,11 +95,17 @@ function Home() {
 
       {/* About Us Section */}
       <section className="about-us">
+      
         <h2>About Us</h2>
+        <img src="https://img.freepik.com/premium-vector/pottery-composition-flat-design_98292-28012.jpg"/>
         <p>
-          Artisan Connect is a platform that connects skilled artisans with individuals eager to learn
-          craftsmanship. We aim to preserve traditional skills while empowering artisans to share their talents.
+        At Artisan Connect, we empower skilled artisans by providing a dedicated digital platform to showcase their craftsmanship, connect with learners, and expand their reach. Many artisans struggle with visibility and limited market access—our goal is to bridge this gap.
+
+Through our platform, artisans can share their expertise, offer workshops, and engage with a global audience. We believe in preserving traditional crafts while creating new opportunities for artisans to grow their businesses and inspire the next generation of creators.
+
+Join us in celebrating artistry and craftsmanship!
         </p>
+       
       </section>
 
       {/* Features Section */}
@@ -125,15 +131,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Contact Us Section */}
-      <section className="contact-us">
-        <h2>Contact Us</h2>
-        <div className="contact-info">
-          <p>Email: support@artisanconnect.com</p>
-          <p>Phone: +123 456 7890</p>
-          <p>Address: 123 Artisan Lane, Craft City</p>
-        </div>
-      </section>
     </div>
   );
 }

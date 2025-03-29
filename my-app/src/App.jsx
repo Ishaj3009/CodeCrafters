@@ -76,6 +76,8 @@ import Dashboard from "./components/Dashboard";
 import Footer from "./components/Footer";
 import Exhibition from "./components/Exhibition";
 import "./components/styles.css"; // Ensure styles are properly imported
+import SignUp from "./components/SignUp"
+import Contact from "./components/Connect"
 
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = localStorage.getItem("token");
@@ -96,8 +98,10 @@ function App() {
             <Route path="/book/:id" element={<ProtectedRoute><BookingForm /></ProtectedRoute>} />
             <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
             <Route path="/exhibition" element={<Exhibition />} />
+            <Route path="/SignUp" element={<SignUp />} />
           </Routes>
         </div>
+        <Contact/>      
         <Footer />
       </div>
     </Router>
