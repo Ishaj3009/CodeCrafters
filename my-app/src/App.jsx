@@ -79,6 +79,7 @@ import "./components/styles.css"; // Ensure styles are properly imported
 import SignUp from "./components/SignUp"
 import Contact from "./components/Connect"
 
+
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = localStorage.getItem("token");
   return isAuthenticated ? children : <Navigate to="/auth" />;
@@ -99,6 +100,7 @@ function App() {
             <Route path="/exhibition" element={<Exhibition />} />
             <Route path="/SignUp" element={<SignUp />} />
             <Route path="/Contact" element={<Contact />} />
+            
           </Routes>
            
         </div>
