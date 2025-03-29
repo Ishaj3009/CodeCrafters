@@ -24,7 +24,7 @@
 
 /* Navbar Styling */
 nav {
-  background-color: #007bff;
+  background: linear-gradient(45deg, #ff0080, #ff8c00);
   color: white;
   padding: 15px 20px;
   display: flex;
@@ -45,7 +45,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-  background-color: #007bff;
+  background: linear-gradient(45deg, #ff0080, #ff8c00);
   color: white;
   text-align: center;
   padding: 15px;
@@ -110,6 +110,7 @@ body {
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 15px;
+  
 }
 
 .hero-content p {

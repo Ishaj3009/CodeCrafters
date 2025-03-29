@@ -1,0 +1,64 @@
+.dashboard {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .section {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #444;
+  }
+  
+  .course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .progress-bar {
+    width: 50%;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background: #4caf50;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .meeting {
+    padding: 8px;
+    background: #fffae6;
+    border-left: 4px solid #ff9800;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
