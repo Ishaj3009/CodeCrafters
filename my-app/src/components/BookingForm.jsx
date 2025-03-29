@@ -1,20 +1,84 @@
-import "./styles.css";
-// BookingForm.jsx
+import { useState } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./BookingForm.css";
 
 function BookingForm() {
   const { id } = useParams();
-  
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    date: "",
+    time: "",
+    notes: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert(`Booking confirmed with Artisan ID: ${id}`);
+    // Here, you can integrate API calls or local storage for saving booking details.
+  };
+
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-bold mb-4">Book a Session</h2>
-      <p className="mb-4">Booking for Artisan ID: {id}</p>
-      <form className="flex flex-col gap-4">
-        <input type="text" placeholder="Your Name" className="p-2 border rounded" />
-        <input type="email" placeholder="Your Email" className="p-2 border rounded" />
-        <input type="date" className="p-2 border rounded" />
-        <button className="bg-blue-600 text-white px-4 py-2 rounded">Submit</button>
+    <div className="booking-form">
+      <h2 className="form-title">Book a Session</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label>Name:</label>
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Date:</label>
+          <input
+            type="date"
+            name="date"
+            value={formData.date}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Time:</label>
+          <input
+            type="time"
+            name="time"
+            value={formData.time}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Additional Notes (Optional):</label>
+          <textarea
+            name="notes"
+            value={formData.notes}
+            onChange={handleChange}
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="submit" className="submit-btn">Confirm Booking</button>
       </form>
+      <Link to="/" className="back-link">Back to Home</Link>
     </div>
   );
 }
