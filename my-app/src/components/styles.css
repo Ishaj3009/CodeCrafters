@@ -24,7 +24,7 @@
 
 /* Navbar Styling */
 nav {
-  background: linear-gradient(135deg, #7209b7, #bb86fc);
+  background-color: #007bff;
   color: white;
   padding: 15px 20px;
   display: flex;
@@ -43,7 +43,22 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
 
+/* Container for pages */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -65,7 +80,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+  background: #f4f4f4;
   color: #333;
 }
 
@@ -75,13 +90,47 @@ body {
   margin: auto;
   padding: 20px;
   text-align: center;
-  background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+  background: #fff; /* Light background for better visibility */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Hero Section */
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?craft,art') no-repeat center center/cover;
+  color: #007bff;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
 
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  padding: 12px 24px;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background: #e85a4f;
+}
 
 /* Sections Styling */
 .about-us,
@@ -99,8 +148,7 @@ body {
 .contact-us h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  
-  color: white; /* Darker text for better visibility */
+  color: #222; /* Darker text for better visibility */
 }
 
 /* Features Section */
@@ -129,3 +177,9 @@ body {
   margin-bottom: 10px;
 }
 
+/* Contact Section */
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #444;
+}
