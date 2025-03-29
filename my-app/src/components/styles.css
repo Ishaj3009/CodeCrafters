@@ -80,7 +80,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  
   color: #333;
 }
 
@@ -90,15 +90,18 @@ body {
   margin: auto;
   padding: 20px;
   text-align: center;
-  background: #fff; /* Light background for better visibility */
+  background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Hero Section */
 .hero {
-  background: url('https://source.unsplash.com/1600x600/?craft,art') no-repeat center center/cover;
-  color: #007bff;
+  /* background: url('https://source.unsplash.com/1600x600/?craft,art') no-repeat center center/cover; */
+  color: white;
   padding: 80px 20px;
   display: flex;
   align-items: center;
@@ -120,7 +123,7 @@ body {
 
 .explore-btn {
   padding: 12px 24px;
-  background: #ff6f61;
+  background: linear-gradient(45deg, #ff0080, #ff8c00);
   color: white;
   border: none;
   border-radius: 5px;
@@ -131,6 +134,58 @@ body {
 
 .explore-btn:hover {
   background: #e85a4f;
+} 
+
+.about-us {
+  margin: 50px auto;
+  max-width: 900px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.about-us-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; /* Ensures proper spacing */
+}
+
+.about-us-left {
+  flex: 1;
+}
+
+.about-us-left img {
+  height: 375px;
+  width: 375px;
+  border-radius: 18px;
+  object-fit: cover; /* Ensures proper image scaling */
+}
+
+.about-us-right {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6; /* Better readability */
+  color: #333;
+  max-width: 500px; /* Prevents text from stretching */
+}
+/* 
+.about-us-right h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+} */
+
+.about-us-right p {
+  font-size: 16px;
+  color:black;
+  font-weight: 500;
 }
 
 /* Sections Styling */
@@ -149,7 +204,9 @@ body {
 .contact-us h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #222; /* Darker text for better visibility */
+  background: linear-gradient(45deg, #ff0080, #ff8c00);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Features Section */

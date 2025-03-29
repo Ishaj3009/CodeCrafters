@@ -23,11 +23,11 @@ function Dashboard() {
     <div className="dashboard-container">
       <h1>Welcome to Artisan Connect Dashboard</h1>
       <div className="dashboard-links">
-        <Link to="/ArtisanDashboard" className="dashboard-card artisans">
+        <Link to="/ArtisanSignUp" className="dashboard-card artisans">
           <h2>Artisans</h2>
           <p>Manage your products and orders.</p>
         </Link>
-        <Link to="/LearnerDashboard" className="dashboard-card learners">
+        <Link to="/LearnerSignUp" className="dashboard-card learners">
           <h2>Learners</h2>
           <p>Find and enroll in skill-based courses.</p>
         </Link>

@@ -69,7 +69,9 @@
   } */
 
 
-  /* Auth Container */
+
+
+  /* Auth Container
 .auth-container {
     display: flex;
     align-items: center;
@@ -79,7 +81,7 @@
   }
   
   /* Form Box */
-  .auth-form {
+  /* .auth-form {
     background: white;
     padding: 30px;
     border-radius: 8px;
@@ -87,9 +89,9 @@
     text-align: center;
     width: 320px;
   }
-  
+   */
   /* Form Fields */
-  .auth-form h2 {
+  /* .auth-form h2 {
     margin-bottom: 20px;
     font-size: 24px;
   }
@@ -112,7 +114,7 @@
   }
   
   /* Button */
-  .auth-form button {
+  /* .auth-form button {
     width: 100%;
     padding: 12px;
     margin-top: 20px;
@@ -126,10 +128,10 @@
   
   .auth-form button:hover {
     background: #0056b3;
-  }
+  } */
   
   /* Toggle Link */
-  .toggle-auth {
+  /* .toggle-auth {
     margin-top: 15px;
     font-size: 14px;
   }
@@ -139,7 +141,45 @@
     font-weight: bold;
     cursor: pointer;
   }
-  
-  .toggle-auth span:hover {
+   */
+  /* .toggle-auth span:hover {
     text-decoration: underline;
+  } */ 
+
+
+  .signup-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+  
+  .signup-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .signup-container button:hover {
+    background-color: #45a049;
+  }
+  

@@ -10,7 +10,7 @@ function Exhibition() {
       date: "April 15, 2025",
       location: "Artisan Gallery, NY",
       description: "A deep dive into traditional and modern pottery techniques.",
-      image: "https://media.istockphoto.com/id/1078456356/photo/indian-woman-painting-vases-in-her-workshop-rajasthan-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=Pbc3Y__1KbvsigQY2f2UdfC2X5AQ0KQJp6v2zx-e84M="
+      image: "https://media.istockphoto.com/id/154904182/photo/potter-manufacturing-kitchen-utensils.webp?a=1&b=1&s=612x612&w=0&k=20&c=be5Gi1O4bV5KXSdisGdcFplX3m774wJ5-O_dpA2kBiY="
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function Exhibition() {
       date: "May 10, 2025",
       location: "Woodworks Studio, LA",
       description: "Handmade furniture and decorative pieces showcase.",
-      image: "https://media.istockphoto.com/id/885281304/photo/carpenter-taking-perfect-measurement.webp?a=1&b=1&s=612x612&w=0&k=20&c=5mPUwNkPQEFHyo-qrI2TICJk8RNl7fVGbMLJPlhk270="
+      image: "https://plus.unsplash.com/premium_photo-1677700640123-beeeffce4944?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29vZGNyYWZ0c3xlbnwwfHwwfHx8MA%3D%3D"
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ function Exhibition() {
       date: "June 5, 2025",
       location: "Modern Art Museum, Paris",
       description: "A journey through vibrant oil and watercolor paintings.",
-      image: "https://media.istockphoto.com/id/1053257968/photo/portrait-of-a-man-painting.webp?a=1&b=1&s=612x612&w=0&k=20&c=oNHreO8TlsMiKhQQitSTl2i6oMATogfEaHI-RLOFOig="
+      image: "https://images.unsplash.com/photo-1545293527-d41d0c75b9ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bW9kZXJuJTIwYXJ0JTIwbXVzZXVtfGVufDB8fDB8fHww"
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ function Exhibition() {
       date: "July 20, 2025",
       location: "Sculpture Center, London",
       description: "Showcasing intricate marble and clay sculptures.",
-      image: "https://media.istockphoto.com/id/1076791836/photo/sculptor-working-with-sculpture-in-the-studio.webp?a=1&b=1&s=612x612&w=0&k=20&c=48j2oOKvTnhi0VunmZvWrVZIT4XY5DIpSuyjPbp1Gmg="
+      image: "https://media.istockphoto.com/id/678984672/photo/young-sculptor-creates-a-clay-sculpture.webp?a=1&b=1&s=612x612&w=0&k=20&c=0CmK8cnIE1WMVEoB8cS_F-dyJRM31o_dEoxPeGCIKMc="
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ function Exhibition() {
       date: "August 12, 2025",
       location: "Metalwork Gallery, Dubai",
       description: "Intricate metalwork and jewelry designs on display.",
-      image: "https://media.istockphoto.com/id/977573346/photo/goldsmith-wrap-silver-wire-with-pliers-in-a-spiral-for-small-chain-rings-macro-shot-with.webp?a=1&b=1&s=612x612&w=0&k=20&c=z6YcZnvTjBPGKc67eERiK6fuBAq6eeCLKHih5G1N-PM="
+      image: "https://plus.unsplash.com/premium_photo-1667323820153-ae0359d04f03?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWV0YWx3b3JrJTIwYXJ0fGVufDB8fDB8fHww"
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ function Exhibition() {
       date: "September 25, 2025",
       location: "Textile Museum, Milan",
       description: "A showcase of exquisite handwoven fabrics and textiles.",
-      image: "https://media.istockphoto.com/id/508651253/photo/indian-women-weaving-textile.webp?a=1&b=1&s=612x612&w=0&k=20&c=HlZ3e1pMhVtpjEB8YOJ1K6KKZFNsSjHSvkkp7X3H-U8="
+      image: "https://images.unsplash.com/photo-1743012782311-b37269102c12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGV4dGlsZWFydHxlbnwwfHwwfHx8MA%3D%3D"
     }
   ];
 

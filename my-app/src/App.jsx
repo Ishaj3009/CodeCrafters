@@ -68,7 +68,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import AuthPage from "./components/AuthPage"; // ✅ Ensure this is imported
 import ArtisanList from "./components/ArtisanList";
 import ArtisanProfile from "./components/ArtisanProfile";
 import BookingForm from "./components/BookingForm";
@@ -80,6 +79,8 @@ import SignUp from "./components/SignUp"
 import Contact from "./components/Connect"
 import ArtisanDashboard from "./components/ArtisanDashboard"
 import LearnerDashboard from "./components/LearnerDashboard"
+import ArtisanSignup from "./components/ArtisanSignUp";
+import LearnerSignup from "./components/LearnerSignUp"
 
 const ProtectedRoute = ({ children }) => {
   const isAuthenticated = localStorage.getItem("token");
@@ -103,6 +104,8 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/ArtisanDashboard" element={<ArtisanDashboard />} />
             <Route path="/LearnerDashboard" element={<LearnerDashboard />} />
+            <Route path="/Artisansignup" element={<ArtisanSignup />} />
+            <Route path="/Learnersignup" element={<LearnerSignup />} />
           </Routes>
            
         </div>

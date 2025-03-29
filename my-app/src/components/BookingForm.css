@@ -42,7 +42,7 @@
   .submit-btn {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background: linear-gradient(45deg, #ff0080, #ff8c00);
     color: white;
     font-size: 16px;
     border: none;
@@ -52,14 +52,16 @@
   }
   
   .submit-btn:hover {
-    background-color: #0056b3;
+    background: linear-gradient(45deg, #ff0080, #ff8c00);
+    transform: scale(1.05);
+    
   }
   
   .back-link {
     display: inline-block;
     margin-top: 15px;
     text-decoration: none;
-    color: #007bff;
+    color: #ff0080;
   }
   
   .back-link:hover {

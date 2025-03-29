@@ -83,8 +83,7 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* Hero Section */}
-      <section className="hero">
+      <div className="hero">
         <div className="hero-content">
           <h1>Discover Skilled Artisans</h1>
           <p>Connecting artisans with learners for a seamless skill-sharing experience.</p>
@@ -92,22 +91,29 @@ function Home() {
             Explore Artisans
           </button>
         </div>
-      </section>
+      </div>
 
-      {/* About Us Section */}
-      <section className="about-us">
-      
+      <div className="about-us">
         <h2>About Us</h2>
-        <img src="https://img.freepik.com/premium-vector/pottery-composition-flat-design_98292-28012.jpg"/>
+        <div className="about-us-main">
+        <div className="about-us-left">
+        <img 
+          src="https://img.freepik.com/premium-vector/pottery-composition-flat-design_98292-28012.jpg" 
+          alt="Artisan pottery workshop"
+        />
+        </div>
+        <div className="about-us-right">
+          
         <p>
-        At Artisan Connect, we empower skilled artisans by providing a dedicated digital platform to showcase their craftsmanship, connect with learners, and expand their reach. Many artisans struggle with visibility and limited market access—our goal is to bridge this gap.
-
-Through our platform, artisans can share their expertise, offer workshops, and engage with a global audience. We believe in preserving traditional crafts while creating new opportunities for artisans to grow their businesses and inspire the next generation of creators.
-
-Join us in celebrating artistry and craftsmanship!
-        </p>
-       
-      </section>
+          At Artisan Connect, we empower skilled artisans by providing a dedicated digital platform to showcase their craftsmanship, 
+          connect with learners, and expand their reach.Many artisans struggle with visibility and limited market access—our goal is to bridge this gap.
+          Through our platform, artisans can share their expertise, offer workshops, and engage with a global audience. 
+          We believe in preserving traditional crafts while creating new opportunities for artisans to grow their businesses 
+          and inspire the next generation of creators.
+      Join us in celebrating artistry and craftsmanship!</p>
+      </div>
+      </div>
+      </div>
 
       {/* Features Section */}
       <section className="features">
