@@ -32,6 +32,7 @@ nav {
   align-items: center;
 }
 
+
 nav a {
   color: white;
   text-decoration: none;
@@ -66,10 +67,10 @@ footer {
     padding: 10px;
   }
 
-  nav {
+  /* nav {
     flex-direction: column;
     text-align: center;
-  }
+  } */
 
   nav a {
     margin: 5px 0;

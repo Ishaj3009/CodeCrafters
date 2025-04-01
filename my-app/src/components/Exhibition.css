@@ -1,20 +1,21 @@
-.exhibition-list {
+/* .exhibition-list {
+  background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: 20px;
   background-color: #f4f4f4;
 }
 
 .title {
+  color: white;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .exhibition-container {
-  background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -65,4 +66,163 @@
   font-size: 0.9rem;
   margin: 10px 0;
   color: #555;
+}
+ */
+
+/* General Styles */
+/* General Styles */
+/* General Styling */
+
+/* General Styles */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Container */
+.container {
+  background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Exhibition Cards */
+.exhibitions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* Makes all cards equal height */
+  gap: 30px;
+}
+
+/* Individual Card */
+.card {
+  width: 260px; /* Fixed width */
+  min-height: 350px; /* Ensures cards are uniform */
+  background: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Image Styling */
+.card img {
+  width: 100%;
+  height: 150px; /* Fixed height */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Title Styling */
+.card h3 {
+  font-size: 1rem;
+  margin: 5px 0;
+  white-space: normal; /* Allows multiple lines */
+}
+
+/* Description Text */
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 2px 0;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limits to 3 lines */
+  -webkit-box-orient: vertical;
+}
+
+/* Price (Always Fully Visible) */
+.card p:last-child {
+  font-weight: bold;
+  font-size: 1rem;
+  -webkit-line-clamp: unset;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Exhibition Details */
+.details {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.details img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Booking & Close Buttons */
+.btn, .close-btn {
+  background: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #ff914d;
+}
+
+.close-btn {
+  background: #333;
+  margin-left: 10px;
+}
+
+.close-btn:hover {
+  background: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .exhibitions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    min-height: auto;
+  }
+
+  .details {
+    width: 90%;
+  }
 }

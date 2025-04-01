@@ -69,16 +69,15 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Contact from "./Connect";
 
+
 function Home() {
   const navigate = useNavigate();
   const isAuthenticated = localStorage.getItem("token"); // Check if user is logged in
 
   const handleExploreClick = () => {
-    if (isAuthenticated) {
+   
       navigate("/artisans"); // Go to artisans page if logged in
-    } else {
-      navigate("/auth"); // Redirect to login/signup page if not logged in
-    }
+    
   };
 
   return (

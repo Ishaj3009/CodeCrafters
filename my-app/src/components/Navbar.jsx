@@ -1,4 +1,3 @@
-Navbar.jsx
 import "./styles.css";
 // Navbar.jsx
 import { Link } from "react-router-dom";

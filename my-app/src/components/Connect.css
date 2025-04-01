@@ -95,6 +95,7 @@
   }
   
   .contact-form button:hover {
+    background: linear-gradient(45deg, #ff0080, #ff8c00);
     opacity: 0.8;
   }
   
